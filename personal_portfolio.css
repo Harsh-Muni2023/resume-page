@@ -235,3 +235,66 @@ nav{
 .f2 .bx{
     padding: 3px 5px;
 }
+@media only screen and (max-width: 1042px){
+    .nav-text h1{
+        height: fit-content;
+    }
+    .nav-text p{
+        height: fit-content;
+    }
+    nav{
+        padding: 0 0 0 0;
+    }
+    nav ul li{
+        padding:8px 0;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .boxx{
+        width: 32ch;
+    }
+    .nav-text{
+        padding:0;
+    }
+    .n-text h1{
+        padding:0;
+        font-size:63px;
+
+    }
+    .btn{
+        padding:0;
+    }
+    .n-text p{
+        padding:0;
+        margin:0;
+        font-size: 20px;
+    }
+    #pp1{
+        width: calc(144%);
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:784px){
+    #pp1{
+        width: calc(226%);
+    }
+    .f1 p{
+        top: 47px;
+    }
+    .f2{
+        gap: 27px;
+    /* padding-right: 33px; */
+    left: 65px;
+    top: 53px;
+    position: relative;
+    gap: 10px;
+    padding-right: 0px;
+    }
+    .footer{
+        gap: 22ch;
+    }
+
+    
+}
