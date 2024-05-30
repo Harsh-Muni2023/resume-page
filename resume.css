@@ -198,7 +198,280 @@ nav{
     transition: all 0.3s;
 }
 
+@media only screen and (max-width: 1038px){
+    .nav-text h1{
+        font-size:19px
+    }
+    .nav-text p{
+        font-size:19px
+    }
+    nav {
+        padding: 24px 25px;
+    }
+    nav ul li a{
+        font-size: 18px;
+    }
+    .resume-box h1{
+        font-size:22px;
+    }
+    .exp-btn h2{
+        font-size: 18px;
+    }
+    .exp-btn a{
+        font-size: 12px;
+    }
+    .exp11 {
+        padding: 32px 25px;
+    }
+    .exp1{
+        height: 30ch;
+    }
+    .exp12{
+        padding: 78px 0px;
+        width: 26ch;
+    }
+    .exp1 p{
+        font-size: 13px;
+        word-spacing: normal;
+        line-height: normal;
+    }
+    .resume-box {
+        height: 184ch;
+    }
+    .footer{
+        top: 1ch;
+    }
+}
 
+@media only screen and (max-width:910px){ 
+    .exp11 h1{
+        font-size:13px
+    }
+    .exp11 p{
+        font-size:13px;
+    }
+    .exp1 p{
+        font-size:11px;
+    }
+    .navbar nav ul li a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:776px){
+    .footer .f1 p{
+        font-size: 12px;
+    }
+    .footer{
+        padding-left: 11px;
+        height: 6ch;
+    }
+    .f2 h1{
+        font-size: 13px;
+    }
+    .f2 p{
+        font-size: 12px;;
+    }
+    .nav-text h1{
+        font-size: 14px;
+    }
+    .nav-text p{
+        font-size: 13px;
+    }
+    .navbar nav ul li a {
+        font-size: 11px;
+    }
+    .resume-box h1 {
+        font-size: 18px;
+    }
+    .exp-btn h2 {
+        font-size: 14px;
+    }
+    .exp-btn a{
+        font-size: 11px;
+    }
+    .exp1 p{
+        font-size: 9px;
+        padding: 0 4px;
+    }
+
+}
+
+@media only screen and (max-width:731px){
+    .footer .f2 {
+        gap: 9px;
+    }
+    .f2 p {
+        font-size: 11px;
+    }
+    .resume-box h1 {
+        font-size: 15px;
+    }
+    .exp1 p {
+        font-size: 8px;
+    }
+    .exp11 {
+        padding: 1px 25px;
+    }
+    .exp12 {
+        padding: 44px 0px;
+    }
+    .exp1 {
+        height: 21ch;
+    }
+    .resume-box {
+        height: 142ch;
+    }
+    #abc{
+        margin: 0;
+    }
+    .exp-btn a {
+        font-size: 10px;
+    }
+    .exp-btn a {
+        font-size: 10px;
+    }
+}
+    
+@media only screen and (max-width:598px){
+    .exp1 p {
+        font-size: 6px;
+    }
+    .footer {
+        height: 4ch;
+    }
+    .footer .f1 p {
+        font-size: 9px;
+    }
+    .f2 h1 {
+        font-size: 8px;
+    }
+    .footer .f2 {
+        gap: 23px;
+    }
+    .f2 p {
+        font-size: 7px;
+    }
+    .f23 .bx{
+        font-size: 13px;
+    }
+    .nav-text {
+        padding: 22px 0 0 9px;
+    }
+    .nav-text h1 {
+        font-size: 11px;
+    }
+    .nav-text p {
+        font-size: 12px;
+    }
+    nav {
+        padding: 18px 18px;
+    }
+}
+
+@media only screen and (max-width:519px){
+    .resume-box h1 {
+        font-size: 11px;
+    }
+    .exp1 {
+        height: 16ch;
+    }
+    .exp1 p {
+        font-size: 5px;
+    }
+    .exp-btn h2 {
+        font-size: 11px;
+    }
+    .exp-btn a {
+        font-size: 8px;
+    }
+    .nav-text {
+        padding: 20px 0 0 15px;
+    }
+    .nav-text p {
+        font-size: 11px;
+    }
+    .resume-box {
+        height: 114ch;
+    }
+    .exp-btn {
+        margin: 27px 0 0;
+    }
+
+}
+    
+@media only screen and (max-width: 480px){
+    .footer .f1 p {
+        font-size: 6px;
+    }
+    .f2 h1 {
+        font-size: 7px;
+    }
+    .nav-text p {
+        font-size: 10px;
+    }
+    .nav-text h1 {
+        font-size: 8px;
+    }
+    .navbar nav ul li a {
+        font-size: 8px;
+    }
+    .navbar {
+        height: 6ch;
+        padding: 0;
+    }
+    .resume-box h1 {
+        font-size: 10px;
+    }
+    .exp-btn a {
+        font-size: 6px;
+    }
+    .exp-btn a {
+        font-size: 6px;
+    }
+    .exp1 p {
+        font-size: 4px;
+    }
+    .exp1 {
+        height: 12ch;
+    }
+    .resume-box {
+        height: 89ch;
+    }
+
+}
+    
+
+@media only screen and (max-width:439px){
+    .exp1 p {
+        font-size: 3px;
+    }
+    .resume-box h1 {
+        font-size: 7px;
+    }
+    .resume-box h1 {
+        font-size: 9px;
+        margin-top: 24px;
+    }
+    .exp1 {
+        height: 10ch;
+    }
+    .exp1 {
+        margin: 17px 28% 0;
+    }
+    #abc{
+        margin-top:12px
+    }
+    .resume-box {
+        height: 62ch;
+    }
+    .footer .f2 {
+        padding-right: 0;
+    }
+    .f23 .bx {
+        font-size: 12px;
+    }
+}
 
 
 
