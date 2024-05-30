@@ -298,3 +298,49 @@ nav{
 
     
 }
+@media only screen and (max-width:420px){
+    .nav-text h1{
+        font-size: 19px;
+        width: 10ch;
+        padding-left: 23px;
+    }
+    .nav-text p{
+        font-size: 19px;
+        width: 18ch;
+    }
+    .n-text h1{
+        padding-left:2cm;
+
+    }
+    .navbar{
+        gap: 9cm;
+    }
+    .n-text #pp{
+        width: 9cm;
+        /* padding: 0 3cm; */
+        margin-left: 2cm;
+    }
+    .btn{
+        padding-left:2cm;
+    }
+    #pp1{
+        width: calc(343%);
+        margin-left: 2cm;
+    }
+    .f2 p{
+        width: 5.5rem;
+    }
+    .f23{
+        margin-left: 93px;
+    }
+    .f2{
+        gap: 32px;;
+    }
+    .name p{
+        font-size: 21px;
+    font-weight: 700;
+    color: #0050ff;
+    margin-left: 35px;
+    margin-bottom: 69px;
+    }
+}
