@@ -475,6 +475,30 @@ nav{
 
 
 
+@media only screen and (max-width:368px){
+    .resume-box {
+        width: 142%;
+    }
+    .footer {
+        gap: 15ch;
+    }
+    .f2 p {
+        width: 14ch;
+    }
+    nav {
+        padding: 18px 89px;
+    }
+    .f22{
+        margin: 0 62px 0 1px;
+    }
+    .navbar nav ul li a {
+        font-size: 6px;
+    }
+    .navbar nav ul li{
+        padding-right: 0;
+    }
+}
+
 
 
 
